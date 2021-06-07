@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Porfatolio de proyectos Sebastián Vargas
 
-You can use the [editor on GitHub](https://github.com/coremas/potafolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## COVID-19 en León, Guanajuato. Expresión cartográfica del Índice de Riesgo de Contagio Interurbano e Intergeneracional (IRCII).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Instrumento de carácter cuantitativo que tuvo por finalidad identificar zonas con diferente intensidad de riesgo de contagio para la ciudad de León, Guanajuato, en el marco de la pandemia global de COVID-19, provocada por el virus SARS-COV2. Dicho instrumento, en forma de índice compuesto, se construye a partir de la combinación de diferentes factores de riesgo, tales como las oportunidades de movilidad en transporte público, la disponibilidad y concentración de establecimientos esenciales, la interacción entre diferentes grupos etarios, la densidad poblacional, y la disponibilidad de agua entubada. Partiendo de que el riesgo es omnipresente, la cartografía de este índice permite distinguir de diferentes zonas de la ciudad en función de su grado de riesgo de contagio.
 
-### Markdown
+Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de la colonia de interés.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
 
-```markdown
-Syntax highlighted code block
+En este proyecto se abordo retrospectivametne la expansión de la ciudad de León, contrastando el crecimiento del entorno construido y el suelo urbano con el crecimiento de la población desde 1980 hasta el 2020, divido en cortes de 20 años. En este mapa interactivo se incluyen los parques industriales dentro del municipio, poniendo en relieve que no hay una correspondacia directa, en términos geográficos, entre las zonas de la ciudad que han mostrado mayor crecimiento, y aquellas en donde se han instalado actividades industriales. De esta forma, se sugiere que el entorno construido de la ciudad crece a más velocidad y con más envergadura que la población misma, aunque esto no se traducen en que existan más oportunidades de vivienda, trabajo y servicios para ésta.
 
-# Header 1
-## Header 2
-### Header 3
+## Concentración y distribución de servicios públicos gubernamentales en León, Guanajuato.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/coremas/potafolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Este material cartográfico permite hacer notar las diferencias en la distribución y orientación de diferentes tipos de servicios gubernamentales, en combinación con las características socioeconómicas de la población. Los resultados proveen evidencia de que estos servicios han tendido a la concentración en zonas de la ciudad, en detrimento de las zonas de la ciudad en donde se detectan más privaciones en términos socioeconómicos.
