@@ -6,7 +6,7 @@ Instrumento de carácter cuantitativo que tuvo por finalidad identificar zonas c
 
 Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de la colonia de interés.
 
-<img src="Imágenes/IRCII_demo.png" width="500">
+<img src="Imágenes/IRCII_demo.png" width="700">
 
 ### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
 
