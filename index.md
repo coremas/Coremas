@@ -1,4 +1,5 @@
-# Porfatolio de proyectos Sebastián Vargas
+# Porfatolio de proyectos y trabajos de análisis estadístico, geoestadístico y en geografía urbana. 
+Sebastián Vargas.
 
 ## COVID-19 en León, Guanajuato. Expresión cartográfica del Índice de Riesgo de Contagio Interurbano e Intergeneracional (IRCII).
 
