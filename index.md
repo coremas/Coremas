@@ -3,7 +3,7 @@
 ### COVID-19 en León, Guanajuato. Expresión cartográfica del Índice de Riesgo de Contagio Interurbano e Intergeneracional (IRCII).
 #### En colaboración con el Dr. José Luis Coronado Ramírez y el Dr. Ernesto Cervantes López.
 
-Instrumento de carácter cuantitativo y [traducido en cartografía interactiva](https://coremas.github.io/IRCII/) que tuvo por finalidad identificar zonas con diferente intensidad de riesgo de contagio para la ciudad de León, Guanajuato, en el marco de la pandemia global de COVID-19, provocada por el virus SARS-COV2. Dicho instrumento, en forma de índice compuesto, se construyó a partir de la combinación de diferentes factores de riesgo, tales como:
+Instrumento de carácter cuantitativo y [*traducido en cartografía web interactiva*](https://www.routledge.com/Web-Cartography-Map-Design-for-Interactive-and-Mobile-Devices/Muehlenhaus/p/book/9781439876220) que tuvo por finalidad identificar zonas con diferente intensidad de riesgo de contagio para la ciudad de León, Guanajuato, en el marco de la pandemia global de COVID-19, provocada por el virus SARS-COV2. Dicho instrumento, en forma de [*índice compuesto*](https://stats.oecd.org/glossary/detail.asp?ID=6278), se construyó a partir de la combinación de diferentes factores de [*riesgo*](https://www.redalyc.org/articulo.oa?id=73111844003), tales como:
 
 1) las oportunidades de movilidad en transporte público, 
 2) la disponibilidad y concentración de establecimientos esenciales, 
@@ -13,7 +13,7 @@ Instrumento de carácter cuantitativo y [traducido en cartografía interactiva](
  
 Partiendo de que el riesgo es omnipresente, la cartografía de este índice permite distinguir diferentes zonas de la ciudad en función de su grado de riesgo de contagio.
 
-Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de la colonia de interés.
+El mapa interactivo está disponible [aquí](https://coremas.github.io/IRCII/). Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de la colonia de interés.
 
 <img src="Imágenes/IRCII_demo.png" width="700">
 
