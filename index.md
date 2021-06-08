@@ -23,5 +23,5 @@ Este material cartográfico permite hacer notar las diferencias en la distribuci
 
 Este gráfico interactivo construido con el lenguaje de programación R muestra la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación.
 
-{% include_relative Vivienda_familia_GTO_municipios.html}
+{% include_relative Vivienda_familia_GTO_municipios.html%}
 
