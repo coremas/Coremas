@@ -13,7 +13,7 @@ Instrumento de carácter cuantitativo y [*traducido en cartografía web interact
  
 Partiendo de que el riesgo es omnipresente, la cartografía de este índice permite distinguir diferentes zonas de la ciudad en función de su grado de riesgo de contagio.
 
-El mapa interactivo está disponible [aquí](https://coremas.github.io/IRCII/). Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de la colonia de interés.
+El mapa interactivo está disponible [aquí](https://coremas.github.io/IRCII/). Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de la colonia de interés. [El artículo](https://github.com/coremas/Coremas/blob/5719854e37fa8611bffa809f4b02c999ea0b9c0b/Vargas,%20Coronado%20y%20Cervantes%20-%20IRCII.pdf) brinda más detalles técnicos sobre los indicadores, la construcción del índice compuesto y su transformación cartográfica.
 
 <img src="Imágenes/IRCII_demo.png" width="700">
 
