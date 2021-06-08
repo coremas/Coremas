@@ -28,7 +28,7 @@ El principal insumo para esta investigación es la base de datos georreferenciad
 
 Los resultados preliminares muestran que el feminicidio en León es un problema preponderantemente urbano, y que los feminicidios en la ciudad no solo han variado en cantidad, sino también en sus “huellas espaciales” año con año. Con respecto a lo anterior, de 2016 a 2018 las huellas espaciales de los feminicidios fueron similares en su orientación, pero no en su extensión y expansión, sugiriendo que los feminicidios tuvieron causas ambientales localizadas en zonas específicas de la ciudad. En contraste, 2019 mostró un patrón transversal a los años anteriores, lo que sugiere que los feminicidios de ese año pudieron estar relacionados con otros fenómenos particulares, pues la “huella espacial” de 2020 vuelve a mostrar un patrón similar a los años de 2016 a 2018. Finalmente, se vislumbra que los feminicidios han tendido a ocurrir en AGEB con características particulares, a saber, con un Grado de Marginación Urbana “medio”, en zonas de transición entre AGEB con grados “alto” y “bajo” de marginación, de acuerdo con los datos del CONAPO, y una densidad poblacional alta (habitantes/km2).
 
-Una versión interactiva más sencilla del material cartográfico presentado debajo puede ser consultado [aquí](coremas.github.io/Feminicidios_Leon/).
+Una versión interactiva más sencilla del material cartográfico presentado debajo puede ser consultado [aquí](https://coremas.github.io/Feminicidios_Leon/#11/21.1060/-101.5403).
 
 ![Feminicidios_ver2_4CIGE](https://user-images.githubusercontent.com/85447979/121257806-c06b8c00-c873-11eb-9981-d8eb971ce522.png)
 
