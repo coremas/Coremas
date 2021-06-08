@@ -21,7 +21,7 @@ ___
 
 ### Estadística descriptiva de la vivienda y la dinámica familiar por municipio en Guanajuato.
 
-El siguiente gráfico fue construido mediante el lenguaje de programación R, manipulado en el entorno de desarrollo integrado (IDE) R studio. 
+El siguiente gráfico fue construido mediante el lenguaje de programación [R](https://www.r-project.org), manipulado en el entorno de desarrollo integrado (IDE) [R Studio](https://www.rstudio.com). 
 
 La intención fue la de explorar el panorama de la vivienda y la dinámica familiar de Guanajuato, a través de la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación. La matriz de datos fue construida a partir de los indicadores de desarrollo social del estado de Guanajuato que puede descargarse [aquí](http://seieg.iplaneg.net/ind35/). Este gráfico también puede hacerse interactivo en formato .html
 
