@@ -39,40 +39,4 @@ Este gráfico interactivo construido con el lenguaje de programación R muestra 
 
 Las librerías y el código utilizados para este gráfico interactivo es el siguiente:
 
-```{r setup, include=FALSE}
-# Cargar librerías.
-library(plotly)
-library(ggplot2)
-library(tidyverse)
-library(ggExtra)
-library(readr)
-
-# Cargar la matriz de datos en formato .csv
-Matriz_indicadores <- read_delim("Indicadores_GTO/Matriz_indicadores.csv", 
-    ";", escape_double = FALSE, trim_ws = TRUE)
-View(Matriz_indicadores)
-
-# Graficar un diagrama de dispersión con:
-    # 3 variables cuantitativas (2 para los ejes, 1 para el tamaño de los puntos),
-    # indicando los valores promedio para cada eje con una línea punteada,
-    # modificando las etiquetas de los ejes e incluyendo título,
-    # y asignándola a un objeto.
-
-grafica1 <- Matriz_indicadores %>% ggplot(aes(x=rez_hab, y=hacinamiento, size=viol_intr, label=Var_clve)) +
-  geom_point(alpha=0.5) +
-  scale_size(range = c(.1,15), name="Violencia intrafamiliar") +
-  theme_classic() +
-  geom_vline(aes(xintercept=mean(rez_hab)), linetype=2, color="lightgrey")  +
-  geom_hline(aes(yintercept=mean(hacinamiento, na.rm = T)), linetype=2, color="lightgrey") +
-  xlab("Rezago de vivienda por municipio") +
-  ylab("Hacinamiento por municipio") +
-  ggtitle("Panorama general de la vivienda y la dinámica familiar en Guanajuato")
-  
-
-# Llamar a la gráfica a partir del objeto creado.
-grafica1
-
-# Hacer al objeto interactivo.
-ggplotly(grafica1)
-```
 
