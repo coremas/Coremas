@@ -41,17 +41,31 @@ Las librerías y el código utilizados para este gráfico interactivo es el sigu
 
 
 ```{r}
+#Librerías necesarias.
+
 library(readr)
 library(plotly)
 library(ggplot2)
 library(tidyverse)
 library(ggExtra)
+```
+
+```{r}
+#Cargar la matriz de datos.
 
 Matriz_indicadores <- read_delim("Indicadores_GTO/Matriz_indicadores.csv", 
                                  ";", escape_double = FALSE, trim_ws = TRUE)
 View(Matriz_indicadores)
+```
 
-
+```{r}
+# Graficar un diagrama de dispersión con:
+    # 3 variables cuantitativas (2 para los ejes, 1 para el tamaño de los puntos)
+    # 1 variable cualitativa (para el color de los puntos)
+    # indicando los valores promedio para cada eje con una línea punteada
+    # modificando las etiquetas de los ejes e incluyendo título
+    # y asignándola a un objeto.
+    
 grafica1 <- Matriz_indicadores %>% ggplot(aes(x=rez_hab, y=hacinamiento, size=viol_intr, label=Var_clve)) +
   geom_point(alpha=0.5) +
   scale_size(range = c(.1,15), name="Violencia intrafamiliar") +
