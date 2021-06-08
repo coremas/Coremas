@@ -66,13 +66,12 @@ grafica1 <- Matriz_indicadores %>% ggplot(aes(x=rez_hab, y=hacinamiento, size=vi
 
 ```
 
-![image](https://user-images.githubusercontent.com/85447979/121120156-a170e980-c7e2-11eb-8cbf-add03ce4e66f.png)
-
+![image](https://user-images.githubusercontent.com/85447979/121121938-2c071800-c7e6-11eb-8882-4b1083de56ef.png)
 ___
 
 ### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
 
-En este proyecto se abordo retrospectivametne la expansión de la ciudad de León, contrastando el crecimiento del entorno construido y el suelo urbano con el crecimiento de la población desde 1980 hasta el 2020, divido en cortes de 20 años. En este mapa interactivo se incluyen los parques industriales dentro del municipio, poniendo en relieve que no hay una correspondacia directa, en términos geográficos, entre las zonas de la ciudad que han mostrado mayor crecimiento, y aquellas en donde se han instalado actividades industriales. De esta forma, se sugiere que el entorno construido de la ciudad crece a más velocidad y con más envergadura que la población misma, aunque esto no se traducen en que existan más oportunidades de vivienda, trabajo y servicios para ésta.
+En este proyecto se abordo retrospectivametne la expansión de la ciudad de León, contrastando el crecimiento del entorno construido y el suelo urbano con el crecimiento de la población desde 1980 hasta el 2020, divido en cortes de 20 años. En el producto cartográfico se incluyen los parques industriales dentro del municipio, poniendo en relieve que no hay una correspondacia directa, en términos geográficos, entre las zonas de la ciudad que han mostrado mayor crecimiento, y aquellas en donde se han instalado actividades industriales. De esta forma, se sugiere que el entorno construido de la ciudad crece a más velocidad y con más envergadura que la población misma, aunque esto no se traducen en que existan más oportunidades de vivienda, trabajo y servicios para ésta.
 
 Los insumos consistieron en imágenes satelitales de diferentes sensores LANDAST, obtenidos del [Servicio Geológico de Estados Unidos (USGS)](https://earthexplorer.usgs.gov); las herramientas utilizadas para este proyecto fueron el SIG de código abierto [QGIS](https://qgis.org/en/site/), en cojunto con la extensión [Semi-Automatic Classification Plugin for QGIS (SCP)](https://fromgistors.blogspot.com/p/semi-automatic-classification-plugin.html) para el procesamiento de imágenes satelitales y la clasificación de uso de suelo mediante la delimitación de Regiones de Interés (ROIs por sus siglas en inglés) para los algoritmos de clasificación.
 
