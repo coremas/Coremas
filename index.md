@@ -90,6 +90,6 @@ En este proyecto se abordo retrospectivametne la expansión de la ciudad de Leó
 
 Los insumos consistieron en imágenes satelitales de diferentes sensores LANDAST, obtenidos del [Servicio Geológico de Estados Unidos (USGS)](https://earthexplorer.usgs.gov); las herramientas utilizadas para este proyecto fueron el SIG de código abierto [QGIS](https://qgis.org/en/site/), en cojunto con la extensión [Semi-Automatic Classification Plugin for QGIS (SCP)](https://fromgistors.blogspot.com/p/semi-automatic-classification-plugin.html) para el procesamiento de imágenes satelitales y la clasificación de uso de suelo mediante la delimitación de Regiones de Interés (ROIs por sus siglas en inglés) para los algoritmos de clasificación.
 
-<img src="Imágenes/LULC_Leon.png" width="1200">
+<img src="Imágenes/LULC_Leon.png" width="2000">
 ___
 
