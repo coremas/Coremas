@@ -19,6 +19,21 @@ El mapa interactivo está disponible [aquí](https://coremas.github.io/IRCII/). 
 
 ___
 
+### Dinámica espacio-temporal de los feminicidios en León, Guanajuato, 2016-2020.
+#### En colaboración con el [Dr. Francisco Cantarero](https://www.uma.es/departamento-de-geografia/info/113352/francisco-jose-cantarero-prados/) y el [Dr. Gonzalo Soltero](https://unam.academia.edu/GonzaloSoltero).
+
+En este trabajo, cuyos avances se presentaron en el [4to Congreso Internacional sobre Género y Espacio](https://cieg.unam.mx/4tocige/pdf/Programa-4to-CIGE.pdf) se trata avanzar en las posibles respuestas a estas preguntas tomando como estudio de caso la dinámica espacio-temporal de los feminicidios en la ciudad de León, Guanajuato, entre 2016 y 2020. 
+
+El principal insumo para esta investigación es la base de datos georreferenciada elaborada por [María Salguero](http://mapafeminicidios.blogspot.com/p/inicio.html), quien ha registrado mediante Google Maps la ubicación precisa de los eventos en donde mujeres han sido asesinadas. En este caso, la estrategia es cuantitativa y espacial, y se presentan resultados que van más allá de los conteos por estados o por municipios, mediante el uso de la Elipse de Desviación Estándar (EDE) como indicador espacial para cada año, permitiendo ver una suerte de “huella espacial” (orientación, longitud y expansión) de los feminicidios, y su permanencia o cambio con el paso del tiempo. Además, tales indicadores son comparados con otros derivados del censo de 2010, y representados en forma de cartografía a nivel de AGEB, obteniendo un material cartográfico sintético que permite retratar la mencionada dinámica espacio-temporal. 
+
+Los resultados preliminares muestran que el feminicidio en León es un problema preponderantemente urbano, y que los feminicidios en la ciudad no solo han variado en cantidad, sino también en sus “huellas espaciales” año con año. Con respecto a lo anterior, de 2016 a 2018 las huellas espaciales de los feminicidios fueron similares en su orientación, pero no en su extensión y expansión, sugiriendo que los feminicidios tuvieron causas ambientales localizadas en zonas específicas de la ciudad. En contraste, 2019 mostró un patrón transversal a los años anteriores, lo que sugiere que los feminicidios de ese año pudieron estar relacionados con otros fenómenos particulares, pues la “huella espacial” de 2020 vuelve a mostrar un patrón similar a los años de 2016 a 2018. Finalmente, se vislumbra que los feminicidios han tendido a ocurrir en AGEB con características particulares, a saber, con un Grado de Marginación Urbana “medio”, en zonas de transición entre AGEB con grados “alto” y “bajo” de marginación, de acuerdo con los datos del CONAPO, y una densidad poblacional alta (habitantes/km2).
+
+Una versión interactiva más sencilla del material cartográfico presentado debajo puede ser consultado [aquí](coremas.github.io/Feminicidios_Leon/).
+
+![Feminicidios_ver2_4CIGE](https://user-images.githubusercontent.com/85447979/121257806-c06b8c00-c873-11eb-9981-d8eb971ce522.png)
+
+___
+
 ### Estadística descriptiva de la vivienda y la dinámica familiar por municipio en Guanajuato.
 
 El siguiente gráfico fue construido mediante el lenguaje de programación [R](https://www.r-project.org), manipulado en el entorno de desarrollo integrado (IDE) [R Studio](https://www.rstudio.com). 
