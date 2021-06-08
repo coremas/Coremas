@@ -40,3 +40,28 @@ Este gráfico interactivo construido con el lenguaje de programación R muestra 
 Las librerías y el código utilizados para este gráfico interactivo es el siguiente:
 
 
+```{r}
+library(readr)
+library(plotly)
+library(ggplot2)
+library(tidyverse)
+library(ggExtra)
+
+Matriz_indicadores <- read_delim("Indicadores_GTO/Matriz_indicadores.csv", 
+                                 ";", escape_double = FALSE, trim_ws = TRUE)
+View(Matriz_indicadores)
+
+
+grafica1 <- Matriz_indicadores %>% ggplot(aes(x=rez_hab, y=hacinamiento, size=viol_intr, label=Var_clve)) +
+  geom_point(alpha=0.5) +
+  scale_size(range = c(.1,15), name="Violencia intrafamiliar") +
+  theme_classic() +
+  geom_vline(aes(xintercept=mean(rez_hab)), linetype=2, color="lightgrey")  +
+  geom_hline(aes(yintercept=mean(hacinamiento, na.rm = T)), linetype=2, color="lightgrey") +
+  xlab("Rezago de vivienda por municipio") +
+  ylab("Hacinamiento por municipio") +
+  ggtitle("Panorama general de la vivienda y la dinámica familiar en Guanajuato")
+
+```
+
+
