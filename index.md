@@ -9,7 +9,6 @@ Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada 
 
 <img src="Imágenes/IRCII_demo.png" width="700">
 
-Click aquí para interactuar con el visualizador
 [https://coremas.github.io/IRCII/]
 
 ### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
