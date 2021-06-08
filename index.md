@@ -20,7 +20,7 @@ El mapa interactivo está disponible [aquí](https://coremas.github.io/IRCII/). 
 ___
 
 ### Dinámica espacio-temporal de los feminicidios en León, Guanajuato, 2016-2020.
-#### En colaboración con el [Dr. Francisco Cantarero](https://www.uma.es/departamento-de-geografia/info/113352/francisco-jose-cantarero-prados/) y el [Dr. Gonzalo Soltero](https://unam.academia.edu/GonzaloSoltero).
+#### En colaboración con el [Dr. Francisco Cantarero](https://scholar.google.com/citations?view_op=list_works&hl=es&user=_KtJaBcAAAAJ) y el [Dr. Gonzalo Soltero](https://unam.academia.edu/GonzaloSoltero).
 
 En este trabajo, cuyos avances se presentaron en el [4to Congreso Internacional sobre Género y Espacio](https://cieg.unam.mx/4tocige/pdf/Programa-4to-CIGE.pdf) se trata avanzar en las posibles respuestas a estas preguntas tomando como estudio de caso la dinámica espacio-temporal de los feminicidios en la ciudad de León, Guanajuato, entre 2016 y 2020. 
 
