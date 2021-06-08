@@ -21,7 +21,7 @@ Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada 
 
 En este proyecto se abordo retrospectivametne la expansión de la ciudad de León, contrastando el crecimiento del entorno construido y el suelo urbano con el crecimiento de la población desde 1980 hasta el 2020, divido en cortes de 20 años. En este mapa interactivo se incluyen los parques industriales dentro del municipio, poniendo en relieve que no hay una correspondacia directa, en términos geográficos, entre las zonas de la ciudad que han mostrado mayor crecimiento, y aquellas en donde se han instalado actividades industriales. De esta forma, se sugiere que el entorno construido de la ciudad crece a más velocidad y con más envergadura que la población misma, aunque esto no se traducen en que existan más oportunidades de vivienda, trabajo y servicios para ésta.
 
-<img src="Imágenes/LULC_Leon.png" width="900">
+<img src="Imágenes/LULC_Leon.png" width="1200">
 
 ### Concentración y distribución de servicios públicos gubernamentales en León, Guanajuato.
 
