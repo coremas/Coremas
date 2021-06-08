@@ -19,23 +19,9 @@ El mapa interactivo está disponible [aquí](https://coremas.github.io/IRCII/). 
 
 ___
 
-### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
-
-En este proyecto se abordo retrospectivametne la expansión de la ciudad de León, contrastando el crecimiento del entorno construido y el suelo urbano con el crecimiento de la población desde 1980 hasta el 2020, divido en cortes de 20 años. En este mapa interactivo se incluyen los parques industriales dentro del municipio, poniendo en relieve que no hay una correspondacia directa, en términos geográficos, entre las zonas de la ciudad que han mostrado mayor crecimiento, y aquellas en donde se han instalado actividades industriales. De esta forma, se sugiere que el entorno construido de la ciudad crece a más velocidad y con más envergadura que la población misma, aunque esto no se traducen en que existan más oportunidades de vivienda, trabajo y servicios para ésta.
-
-<img src="Imágenes/LULC_Leon.png" width="1200">
-
-___
-
-### Concentración y distribución de servicios públicos gubernamentales en León, Guanajuato.
-
-Este material cartográfico permite hacer notar las diferencias en la distribución y orientación de diferentes tipos de servicios gubernamentales, en combinación con las características socioeconómicas de la población. Los resultados proveen evidencia de que estos servicios han tendido a la concentración en zonas de la ciudad, en detrimento de las zonas de la ciudad en donde se detectan más privaciones en términos socioeconómicos.
-
-___
-
 ### Estadística descriptiva de la vivienda y la dinámica familiar por municipio en Guanajuato.
 
-Este gráfico interactivo construido con el lenguaje de programación R muestra la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación.
+El siguiente gráfico fue construido mediante el lenguaje de programación R muestra la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación. La matriz de datos fue construida a partir de los indicadores de desarrollo social del estado de Guanajuato que puede descargarse [aquí](http://seieg.iplaneg.net/ind35/). Este gráfico también puede hacerse interactivo en formato .html
 
 Las librerías y el código utilizados para este gráfico interactivo es el siguiente:
 
@@ -60,11 +46,11 @@ View(Matriz_indicadores)
 
 ```{r}
 # Graficar un diagrama de dispersión con:
-    # 3 variables cuantitativas (2 para los ejes, 1 para el tamaño de los puntos)
-    # 1 variable cualitativa (para el color de los puntos)
-    # indicando los valores promedio para cada eje con una línea punteada
-    # modificando las etiquetas de los ejes e incluyendo título
-    # y asignándola a un objeto.
+# 3 variables cuantitativas (2 para los ejes, 1 para el tamaño de los puntos)
+# 1 variable cualitativa (para el color de los puntos)
+# indicando los valores promedio para cada eje con una línea punteada
+# modificando las etiquetas de los ejes e incluyendo título
+# y asignándola a un objeto.
     
 grafica1 <- Matriz_indicadores %>% ggplot(aes(x=rez_hab, y=hacinamiento, size=viol_intr, label=Var_clve)) +
   geom_point(alpha=0.5) +
@@ -78,4 +64,14 @@ grafica1 <- Matriz_indicadores %>% ggplot(aes(x=rez_hab, y=hacinamiento, size=vi
 
 ```
 
+![image](https://user-images.githubusercontent.com/85447979/121120156-a170e980-c7e2-11eb-8cbf-add03ce4e66f.png)
+
+___
+
+### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
+
+En este proyecto se abordo retrospectivametne la expansión de la ciudad de León, contrastando el crecimiento del entorno construido y el suelo urbano con el crecimiento de la población desde 1980 hasta el 2020, divido en cortes de 20 años. En este mapa interactivo se incluyen los parques industriales dentro del municipio, poniendo en relieve que no hay una correspondacia directa, en términos geográficos, entre las zonas de la ciudad que han mostrado mayor crecimiento, y aquellas en donde se han instalado actividades industriales. De esta forma, se sugiere que el entorno construido de la ciudad crece a más velocidad y con más envergadura que la población misma, aunque esto no se traducen en que existan más oportunidades de vivienda, trabajo y servicios para ésta.
+
+<img src="Imágenes/LULC_Leon.png" width="1200">
+___
 
