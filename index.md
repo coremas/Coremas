@@ -70,11 +70,11 @@ bubble_chart <- function(df, xcol, ycol, zcol, wcol, pointlab, title, xlab, ylab
 }
 
 bubble_chart(Matriz_indicadores, hacinamiento, viol_intr, car_soc, niv_edu, Var_clve,
-             "Condiciones de la vivienda y dinámica familiar", "Hacinamiento (% de viviendas)", "Violencia intrafamiliar (carpetas x 100 mil hogares)", "Carencias sociales (% de hogares)", "Nivel educativo (escolaridad promedio en años)")
+             "Condiciones de la vivienda y dinámica familiar en Guanajuato a nivel municipal", "Hacinamiento (% de viviendas)", "Violencia intrafamiliar (carpetas x 100 mil hogares)", "Carencias sociales (% de hogares)", "Nivel educativo (escolaridad promedio en años)")
 
 ```
 
-![image](https://user-images.githubusercontent.com/85447979/121399377-fb28ff00-c91b-11eb-8d84-e3c6128b311c.png)
+![image](https://user-images.githubusercontent.com/85447979/121412056-e5223b00-c929-11eb-89c4-72b68e700ee6.png)
 ___
 
 ### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
