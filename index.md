@@ -34,54 +34,47 @@ Una versión interactiva más sencilla del material cartográfico presentado deb
 
 ___
 
-### Estadística descriptiva de la vivienda y la dinámica familiar por municipio en Guanajuato.
+### Estadística con R para la exploración de las condiciones de vivienda y la dinámica familiar por municipio en Guanajuato.
 
-El siguiente gráfico fue construido mediante el lenguaje de programación [R](https://www.r-project.org), manipulado en el entorno de desarrollo integrado (IDE) [R Studio](https://www.rstudio.com). 
+El siguiente gráfico fue construido mediante el lenguaje de programación [R](https://www.r-project.org), manipulado en el entorno de desarrollo integrado (IDE) [R Studio](https://www.rstudio.com). Se programó una función que permite tomar cualquier matriz de datos, para, proviendo de los argumentos indicados, construir un gráfico de hasta cuatro variables cuantitativas resumidas en un único elemento. Se incluye la línea de regresión como elemento indicativo de la relación entre las dos variables principales.
 
-La intención fue la de explorar el panorama de la vivienda y la dinámica familiar de Guanajuato, a través de la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación. La matriz de datos fue construida a partir de los [indicadores de desarrollo social del estado de Guanajuato](http://seieg.iplaneg.net/ind35/). Este gráfico también puede hacerse interactivo en formato .html
+En este caso, la intención fue la de explorar el panorama de la vivienda y la dinámica familiar de Guanajuato, a través de la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación. La matriz de datos fue construida a partir de los [indicadores de desarrollo social del estado de Guanajuato](http://seieg.iplaneg.net/ind35/). Este gráfico también puede hacerse interactivo en formato .html
 
 Las librerías y el código utilizados para este gráfico es el siguiente:
 
 
 ```{r}
-#Librerías necesarias.
 
-library(readr)
-library(plotly)
-library(ggplot2)
-library(tidyverse)
-library(ggExtra)
-```
+#Función para la generación automática de gráficos de burbujas con 4 variables cuantitativas.
+#df = matriz de datos, xcol = variable x, ycol = variable y, zcol = tamaño de burbujas, wcol = color de las burbujas,
+#pointlab = etiquetas, title = título del gráfico, xlab = etiqueta eje x, ylab = etiqueta eje y, zlab = etiqueta del
+#tamaño de las burbujas, wlab = etiqueta del color de las burbujas.
 
-```{r}
-#Cargar la matriz de datos.
+bubble_chart <- function(df, xcol, ycol, zcol, wcol, pointlab, title, xlab, ylab, zlab, wlab) {
+    require(rlang)
+    require(ggplot2)
+    require(ggExtra)
+    grafica <-ggplot(data = df, aes(x={{xcol}}, y={{ycol}}, label={{pointlab}})) +
+    geom_point(aes(size={{zcol}}, fill={{wcol}}), shape=21, alpha=0.7) +
+    scale_fill_continuous(type="viridis", name ={{wlab}}) +
+    scale_size(range = c(3,15), name = {{zlab}}) +
+    geom_vline(aes(xintercept=mean({{xcol}}, na.rm=T)), linetype=2, color="lightgrey") +
+    geom_hline(aes(yintercept=mean({{ycol}}, na.rm=T)), linetype=2, color="lightgrey") +
+    xlab(xlab) +
+    ylab(ylab) +
+    geom_smooth(method = "lm", se = FALSE, fullrange=TRUE, linetype="dashed", color="darkred") +
+    ggtitle(title) +
+    geom_text(size=3) +
+    theme_classic()
+    grafica
+}
 
-Matriz_indicadores <- read_delim("Indicadores_GTO/Matriz_indicadores.csv", 
-                                 ";", escape_double = FALSE, trim_ws = TRUE)
-View(Matriz_indicadores)
-```
-
-```{r}
-# Graficar un diagrama de dispersión con:
-# 3 variables cuantitativas (2 para los ejes, 1 para el tamaño de los puntos)
-# 1 variable cualitativa (para el color de los puntos)
-# indicando los valores promedio para cada eje con una línea punteada
-# modificando las etiquetas de los ejes e incluyendo título
-# y asignándola a un objeto.
-    
-grafica1 <- Matriz_indicadores %>% ggplot(aes(x=rez_hab, y=hacinamiento, size=viol_intr, label=Var_clve)) +
-  geom_point(alpha=0.5) +
-  scale_size(range = c(.1,15), name="Violencia intrafamiliar") +
-  theme_classic() +
-  geom_vline(aes(xintercept=mean(rez_hab)), linetype=2, color="lightgrey")  +
-  geom_hline(aes(yintercept=mean(hacinamiento, na.rm = T)), linetype=2, color="lightgrey") +
-  xlab("Rezago de vivienda por municipio") +
-  ylab("Hacinamiento por municipio") +
-  ggtitle("Panorama general de la vivienda y la dinámica familiar en Guanajuato")
+bubble_chart(Matriz_indicadores, hacinamiento, viol_intr, car_soc, niv_edu, Var_clve,
+             "Condiciones de la vivienda y dinámica familiar", "Hacinamiento", "Violencia intrafamiliar", "Carencias sociales", "Nivel educativo")
 
 ```
 
-![image](https://user-images.githubusercontent.com/85447979/121121938-2c071800-c7e6-11eb-8882-4b1083de56ef.png)
+![image](https://user-images.githubusercontent.com/85447979/121398313-d84a1b00-c91a-11eb-8783-10fa5eb26ab1.png)
 ___
 
 ### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
