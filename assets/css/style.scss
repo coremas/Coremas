@@ -13,12 +13,12 @@ display: none;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(https://github.com/coremas/Coremas/blob/gh-pages/Imágenes/pic_github.png) no-repeat;
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+	margin: auto;
 	}
 
 .circular img {
 	opacity: 0;
 	filter: alpha(opacity=0);
-	background-position: 50% 50%;
-	background-size: 200px 200px;
-	margin: auto;
 	}
