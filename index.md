@@ -1,3 +1,5 @@
+<div class="circular"><img src="https://github.com/coremas/Coremas/blob/gh-pages/Imágenes/pic_github.png" alt="" /></div>
+
 ## Portafolio de proyectos Sebastián Vargas.
 
 ### COVID-19 en León, Guanajuato. Expresión cartográfica del Índice de Riesgo de Contagio Interurbano e Intergeneracional (IRCII).
