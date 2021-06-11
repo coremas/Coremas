@@ -15,13 +15,12 @@ display: none;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(http://link-to-your/image.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+	margin: auto;
 	}
 
 .circular img {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	}
-
-background-position: 50% 50%;
-background-size: 200px 200px;
-margin: auto;
