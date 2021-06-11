@@ -1,6 +1,12 @@
 @import "{{ site.theme }}";
 
+header {
 
+display: none;
+
+}
+
+header {
 
 .circular {
 	width: 300px;
@@ -18,3 +24,5 @@
 	background-size: 200px 200px;
 	margin: auto;
 	}
+
+}
