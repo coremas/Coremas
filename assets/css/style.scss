@@ -1,13 +1,4 @@
----
----
-
-// Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #3a2963;
-$header-bg-color-secondary: #34183b;
-
 @import "{{ site.theme }}";
-
 
 header {
 
@@ -32,3 +23,7 @@ display: none;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	}
+
+$header-heading-color: #fff !default;
+$header-bg-color: #3a2963;
+$header-bg-color-secondary: #34183b;
