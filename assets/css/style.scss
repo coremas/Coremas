@@ -1,6 +1,10 @@
 @import "{{ site.theme }}";
 
+header {
 
+display: none;
+
+}
 
 .circular {
 	width: 300px;
