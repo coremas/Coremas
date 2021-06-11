@@ -6,7 +6,7 @@ display: none;
 
 }
 
-circular {
+.circular {
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
@@ -15,7 +15,7 @@ circular {
 	background: url(https://github.com/coremas/Coremas/blob/gh-pages/Imágenes/pic_github.png) no-repeat;
 	}
 
-circular img {
+.circular img {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	background-position: 50% 50%;
