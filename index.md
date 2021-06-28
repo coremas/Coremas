@@ -1,4 +1,4 @@
-## Sebastián Vargas ####(Maestro en Estudios para el Desarrollo / Maestrante en Geografía).
+## Sebastián Vargas #### (Maestro en Estudios para el Desarrollo / Maestrante en Geografía).
 
 ### COVID-19 en León, Guanajuato. Expresión cartográfica del Índice de Riesgo de Contagio Interurbano e Intergeneracional (IRCII).
 #### En colaboración con el Dr. José Luis Coronado Ramírez y el Dr. Ernesto Cervantes López.
