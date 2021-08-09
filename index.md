@@ -39,7 +39,7 @@ ___
 
 El siguiente gráfico fue construido mediante el lenguaje de programación [R](https://www.r-project.org), manipulado en el entorno de desarrollo integrado (IDE) [R Studio](https://www.rstudio.com). Se programó una función que permite tomar cualquier matriz de datos, para, proviendo de los argumentos indicados, construir un gráfico de hasta cuatro variables cuantitativas resumidas en un único elemento visual. Se incluye la línea de regresión como aspecto indicativo de la relación entre las dos variables principales.
 
-En este caso, la intención fue la de explorar el panorama de la vivienda y la dinámica familiar de Guanajuato, a través de la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación. La matriz de datos fue construida a partir de los [indicadores de desarrollo social del estado de Guanajuato](http://seieg.iplaneg.net/ind35/). Este gráfico también puede hacerse interactivo en formato .html
+En este caso, la intención fue la de explorar el panorama de la vivienda y la dinámica familiar de Guanajuato, a través de la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación. La matriz de datos fue construida a partir de los [indicadores de desarrollo social del estado de Guanajuato](http://seieg.iplaneg.net/ind35/). Este gráfico también puede hacerse interactivo en formato .html, el cual puede ser consultado [aquí](https://rpubs.com/AlexVM91/vivienda_violencia_intrafamiliar_Gto)
 
 Las librerías y el código utilizados para este gráfico es el siguiente:
 
