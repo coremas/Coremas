@@ -78,7 +78,7 @@ bubble_chart(Matriz_indicadores, hacinamiento, viol_intr, car_soc, niv_edu, Var_
 ```
 
 ![image](https://user-images.githubusercontent.com/85447979/121412056-e5223b00-c929-11eb-89c4-72b68e700ee6.png)
-___
+____
 
 ### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
 
@@ -89,5 +89,7 @@ Los insumos consistieron en imágenes satelitales de diferentes sensores LANDAST
 Una versión interactiva de este material cartográfico, creado mediante Leaflet en R Studio puede ser consultado [aquí](https://rpubs.com/AlexVM91/expansion_urbana_leon). 
  
 <img src="Imágenes/LULC_Leon.png" width="2000">
-___
+ 
+<img src="Imágenes/Expansion_urbana_web.jpg" width="2000">
+____
 
