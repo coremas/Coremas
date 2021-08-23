@@ -4,7 +4,7 @@
 ### COVID-19 en León, Guanajuato. Expresión cartográfica del Índice de Riesgo de Contagio Interurbano e Intergeneracional (IRCII).
 #### En colaboración con el Dr. José Luis Coronado Ramírez y el Dr. Ernesto Cervantes López.
 
-Instrumento de carácter cuantitativo y [*traducido en cartografía web interactiva*](https://www.tandfonline.com/doi/full/10.1111/j.0033-0124.2005.00482.x) que tuvo por finalidad identificar zonas con diferente intensidad de riesgo de contagio para la ciudad de León, Guanajuato, en el marco de la pandemia global de COVID-19, provocada por el virus SARS-COV2. Dicho instrumento, en forma de [*índice compuesto*](https://www.istat.it/it/files/2013/12/Rivista2013_Mazziotta_Pareto.pdf), se construyó a partir de la combinación de diferentes factores de [*riesgo*](https://www.redalyc.org/articulo.oa?id=73111844003), tales como:
+Instrumento de carácter cuantitativo y [*traducido en cartografía web interactiva*](https://coremas.github.io/IRCII_2/) que tuvo por finalidad identificar zonas con diferente intensidad de riesgo de exposición al contagio del virus SARS-COV2 para la ciudad de León, Guanajuato, en el marco de la pandemia global de COVID-19. Dicho instrumento, en forma de índice compuesto, se construyó a partir de la combinación de diferentes factores de riesgo, derivados de las medidas no médicoas, tales como:
 
 1) las oportunidades de movilidad en transporte público, 
 2) la disponibilidad y concentración de establecimientos esenciales, 
@@ -12,9 +12,11 @@ Instrumento de carácter cuantitativo y [*traducido en cartografía web interact
 4) la densidad poblacional, y 
 5) la disponibilidad de agua entubada. 
  
-Partiendo de que el riesgo es omnipresente, la cartografía de este índice permite distinguir diferentes zonas de la ciudad en función de su grado de riesgo de contagio.
+Partiendo de que el riesgo es omnipresente, la cartografía de este índice permite distinguir diferentes zonas de la ciudad en función de su grado de riesgo de exposición al virus, y con ello, de contagio del mismo.
 
-El mapa interactivo está disponible [aquí](https://coremas.github.io/IRCII/). Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de la colonia de interés. [El artículo](https://github.com/coremas/Coremas/blob/5719854e37fa8611bffa809f4b02c999ea0b9c0b/Vargas,%20Coronado%20y%20Cervantes%20-%20IRCII.pdf) brinda más detalles técnicos sobre los indicadores, la construcción del índice compuesto y su transformación cartográfica.
+Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de una colonia de interés, y otro buscador para escuelas. [El artículo](https://github.com/coremas/Coremas/blob/5719854e37fa8611bffa809f4b02c999ea0b9c0b/Vargas,%20Coronado%20y%20Cervantes%20-%20IRCII.pdf) brinda más detalles técnicos sobre los indicadores, la construcción del índice compuesto y su transformación cartográfica.
+ 
+NOTA: Este mapa interactivo fue actualizado para incluir a las diferentes escuelas de todos los niveles, públicas y privadas, en el marco del regreso a clases.
 
 <img src="Imágenes/IRCII_demo.png" width="700">
 
