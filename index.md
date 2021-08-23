@@ -18,7 +18,7 @@ Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada 
  
 NOTA: Este mapa interactivo fue actualizado para incluir a las diferentes escuelas de todos los niveles, públicas y privadas, en el marco del regreso a clases.
 
-<img src="Imágenes/IRCII_2_instructivo.jpg" width="700">
+<img src="Imágenes/IRCII_2_instructivo.jpg" width="900">
 
 ___
 
