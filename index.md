@@ -39,7 +39,7 @@ ___
  
 ### Geomarketing para negocios locales.
  
-En este tipo de trabajo se establecen la distribución y tendencia espacial del giro, y se identifican las relaciones de proximidad entre el negocio de interés y los negocios competidores. A su vez, se establecen áreas de servicio (isócronas) tomando en cuenta la red vial existente, y con ello se determina la posible área de influencia, y con ello, el posible rango de acción del negocio, así como el de los competidores, para encontrar posibles zonas de interacción entre ellos. Además, otro tipo de análisis como la localización-asignación del resto de la red vial, análisis de _clusters_ estadísticamente significativos y modelos de ubicación óptima también son posibles. Todo lo anterior, a su vez, puede traducirse en cartografía interactiva web para consulta del negocio interesado. El ejemplo siguiente presenta un análisis que incluye algunos de estos elementos. Por razones de privacidad, sólo se incluye una ilustración estática del resultado.
+En este tipo de trabajo se establecen la distribución y tendencia espacial del giro, y se identifican las relaciones de proximidad entre el negocio de interés y los negocios competidores. A su vez, se establecen áreas de servicio (isócronas) tomando en cuenta la red vial existente, y con ello se determina la posible área de influencia, y con ello, el posible rango de acción del negocio, así como el de los competidores, para encontrar posibles zonas de interacción entre ellos. Además, otro tipo de análisis como la localización-asignación del resto de la red vial, análisis de _clusters_ estadísticamente significativos y modelos de ubicación óptima también son posibles. Todo lo anterior, a su vez, puede traducirse en cartografía interactiva web para consulta del negocio interesado. El ejemplo siguiente presenta un análisis realizado para un negoico local de botanas, que incluye algunos de los elementos mencionados. Por razones de privacidad, sólo se incluye una ilustración estática de algunos de los resultados.
 
 ![image](https://user-images.githubusercontent.com/85447979/130892185-b8221008-2e00-4f69-a776-472f96d1b31e.png)
 
@@ -87,7 +87,8 @@ bubble_chart(Matriz_indicadores, hacinamiento, viol_intr, car_soc, niv_edu, Var_
 ```
 
 ![image](https://user-images.githubusercontent.com/85447979/121412056-e5223b00-c929-11eb-89c4-72b68e700ee6.png)
-____
+
+___
 
 ### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
 
@@ -100,5 +101,5 @@ Una versión interactiva de este material cartográfico, creado mediante Leaflet
 <img src="Imágenes/LULC_Leon.png" width="2000">
  
 <img src="Imágenes/Expansion_urbana_web.jpg" width="2000">
-____
 
+___
