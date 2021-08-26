@@ -36,6 +36,15 @@ Una versión interactiva más sencilla del material cartográfico presentado deb
 ![Feminicidios_ver2_4CIGE](https://user-images.githubusercontent.com/85447979/121257806-c06b8c00-c873-11eb-9981-d8eb971ce522.png)
 
 ___
+ 
+### Geomarketing para negocios locales.
+ 
+En este tipo de trabajo se establecen la distribución y tendencia espacial del giro, y se identifican las relaciones de proximidad entre el negocio de interés y los negocios competidores. A su vez, se establecen áreas de servicio (isócronas) tomando en cuenta la red vial existente, y con ello se determina la posible área de influencia, y con ello, el posible rango de acción del negocio, así como el de los competidores, para encontrar posibles zonas de interacción entre ellos. Además, otro tipo de análisis como la localización-asignación del resto de la red vial, análisis de _clusters_ estadísticamente significativos y modelos de ubicación óptima también son posibles. Todo lo anterior, a su vez, puede traducirse en cartografía interactiva web para consulta del negocio interesado. El ejemplo siguiente presenta un análisis que incluye algunos de estos elementos. Por razones de privacidad, sólo se incluye una ilustración estática del resultado.
+
+![Uploading image.png…]()
+
+
+___
 
 ### Estadística con R para la exploración de las condiciones de vivienda y la dinámica familiar por municipio en Guanajuato.
 
