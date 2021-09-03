@@ -41,9 +41,13 @@ ___
  
 En este tipo de trabajo se establecen la distribución y tendencia espacial del giro, y se identifican las relaciones de proximidad entre el negocio de interés y los negocios competidores. A su vez, se establecen áreas de servicio (isócronas) tomando en cuenta la red vial existente, y con ello se determina la posible área de influencia y el posible rango de acción del negocio, así como el de los competidores, para encontrar posibles zonas de interacción entre ellos. 
  
-Además, otro tipo de análisis, como la localización-asignación del resto de la red vial, análisis de _clusters_ estadísticamente significativos y modelos de ubicación óptima, también son posibles. Todo lo anterior, a su vez, puede traducirse en cartografía interactiva web para consulta del cliente. El ejemplo siguiente presenta un análisis realizado para un negoico local de botanas, que incluye algunos de los elementos mencionados. Por razones de privacidad, sólo se incluye una ilustración estática de algunos de los resultados.
+Además, otro tipo de análisis, como la localización-asignación del resto de la red vial, análisis de _clusters_ estadísticamente significativos y modelos de ubicación óptima, también son posibles. Todo lo anterior, a su vez, puede traducirse en cartografía interactiva web para consulta del cliente. El ejemplo siguiente presenta un análisis realizado para un negoico local de botanas, que incluye algunos de los elementos mencionados. Por razones de privacidad, sólo se incluye unas ilustraciones estáticas de algunos de los resultados. Tanto en formato cartográfico, como en la visualización en Google Earth Pro.
 
 ![image](https://user-images.githubusercontent.com/85447979/130892185-b8221008-2e00-4f69-a776-472f96d1b31e.png)
+ 
+ 
+![Mapa_google_earth_pro](https://user-images.githubusercontent.com/85447979/132057871-1f083176-47da-4a65-aa3c-abe92ec7e218.jpg)
+
 
 
 ___
