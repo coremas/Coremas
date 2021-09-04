@@ -22,6 +22,34 @@ NOTA: Este mapa interactivo fue actualizado para incluir a las diferentes escuel
 
 ___
 
+### Geomarketing para negocios locales.
+ 
+En este tipo de trabajo se establecen la distribución y tendencia espacial del giro, y se identifican las relaciones de proximidad entre el negocio de interés y los negocios competidores. Además, pueden establecerse áreas de servicio (isócronas) tomando en cuenta la red vial existente, y con ello se determina la posible área de influencia y el posible rango de acción del negocio, así como el de los competidores, para encontrar zonas de interacción entre ellos. 
+ 
+Además, otro tipo de análisis, como la localización-asignación del resto de la red vial, análisis de _clusters_ estadísticamente significativos y modelos de ubicación óptima, también son posibles. Todo lo anterior, puede traducirse en cartografía interactiva web para consulta del cliente. El ejemplo siguiente presenta un análisis realizado para un negoico local de botanas, que incluye algunos de los elementos mencionados. Por razones de privacidad, sólo se incluye unas ilustraciones estáticas de algunos de los resultados, tanto en formato cartográfico, como en la visualización en Google Earth Pro.
+
+![image](https://user-images.githubusercontent.com/85447979/130892185-b8221008-2e00-4f69-a776-472f96d1b31e.png)
+ 
+ 
+![Mapa_google_earth_pro](https://user-images.githubusercontent.com/85447979/132057871-1f083176-47da-4a65-aa3c-abe92ec7e218.jpg)
+
+___ 
+
+### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
+
+En este proyecto se abordo retrospectivametne la expansión de la ciudad de León, contrastando el crecimiento del entorno construido y el suelo urbano con el crecimiento de la población desde 1980 hasta el 2020, divido en cortes de 20 años. En el producto cartográfico se incluyen los parques industriales dentro del municipio, poniendo en relieve que no hay una correspondacia directa, en términos geográficos, entre las zonas de la ciudad que han mostrado mayor crecimiento, y aquellas en donde se han instalado actividades industriales. De esta forma, se sugiere que el entorno construido de la ciudad crece con más velocidad y envergadura que la población misma, aunque esto no se traducen en que existan más oportunidades de vivienda, trabajo y servicios para ésta.
+
+Los insumos consistieron en imágenes satelitales de diferentes sensores LANDAST, obtenidos del [Servicio Geológico de Estados Unidos (USGS)](https://earthexplorer.usgs.gov); las herramientas utilizadas para este proyecto fueron el SIG de código abierto [QGIS](https://qgis.org/en/site/), en cojunto con la extensión [Semi-Automatic Classification Plugin for QGIS (SCP)](https://fromgistors.blogspot.com/p/semi-automatic-classification-plugin.html) para el procesamiento de imágenes satelitales y la clasificación de uso de suelo mediante la delimitación de Regiones de Interés (ROIs por sus siglas en inglés) para los algoritmos de clasificación.
+
+Una versión interactiva de este material cartográfico, creado mediante Leaflet en R Studio puede ser consultado [aquí](https://rpubs.com/AlexVM91/expansion_urbana_leon). 
+ 
+<img src="Imágenes/LULC_Leon.png" width="2000">
+ 
+<img src="Imágenes/Expansion_urbana_web.jpg" width="2000">
+
+___
+ 
+
 ### Dinámica espacio-temporal de los feminicidios en León, Guanajuato, 2016-2020.
 #### En colaboración con el [Dr. Francisco Cantarero](https://www.uma.es/departamento-de-geografia/info/113352/francisco-jose-cantarero-prados/) y el [Dr. Gonzalo Soltero](https://unam.academia.edu/GonzaloSoltero).
 
@@ -37,20 +65,7 @@ Una versión interactiva más sencilla del material cartográfico presentado deb
 
 ___
  
-### Geomarketing para negocios locales.
- 
-En este tipo de trabajo se establecen la distribución y tendencia espacial del giro, y se identifican las relaciones de proximidad entre el negocio de interés y los negocios competidores. A su vez, se establecen áreas de servicio (isócronas) tomando en cuenta la red vial existente, y con ello se determina la posible área de influencia y el posible rango de acción del negocio, así como el de los competidores, para encontrar posibles zonas de interacción entre ellos. 
- 
-Además, otro tipo de análisis, como la localización-asignación del resto de la red vial, análisis de _clusters_ estadísticamente significativos y modelos de ubicación óptima, también son posibles. Todo lo anterior, a su vez, puede traducirse en cartografía interactiva web para consulta del cliente. El ejemplo siguiente presenta un análisis realizado para un negoico local de botanas, que incluye algunos de los elementos mencionados. Por razones de privacidad, sólo se incluye unas ilustraciones estáticas de algunos de los resultados. Tanto en formato cartográfico, como en la visualización en Google Earth Pro.
 
-![image](https://user-images.githubusercontent.com/85447979/130892185-b8221008-2e00-4f69-a776-472f96d1b31e.png)
- 
- 
-![Mapa_google_earth_pro](https://user-images.githubusercontent.com/85447979/132057871-1f083176-47da-4a65-aa3c-abe92ec7e218.jpg)
-
-
-
-___
 
 ### Estadística con R para la exploración de las condiciones de vivienda y la dinámica familiar por municipio en Guanajuato.
 
@@ -96,16 +111,3 @@ bubble_chart(Matriz_indicadores, hacinamiento, viol_intr, car_soc, niv_edu, Var_
 
 ___
 
-### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
-
-En este proyecto se abordo retrospectivametne la expansión de la ciudad de León, contrastando el crecimiento del entorno construido y el suelo urbano con el crecimiento de la población desde 1980 hasta el 2020, divido en cortes de 20 años. En el producto cartográfico se incluyen los parques industriales dentro del municipio, poniendo en relieve que no hay una correspondacia directa, en términos geográficos, entre las zonas de la ciudad que han mostrado mayor crecimiento, y aquellas en donde se han instalado actividades industriales. De esta forma, se sugiere que el entorno construido de la ciudad crece con más velocidad y envergadura que la población misma, aunque esto no se traducen en que existan más oportunidades de vivienda, trabajo y servicios para ésta.
-
-Los insumos consistieron en imágenes satelitales de diferentes sensores LANDAST, obtenidos del [Servicio Geológico de Estados Unidos (USGS)](https://earthexplorer.usgs.gov); las herramientas utilizadas para este proyecto fueron el SIG de código abierto [QGIS](https://qgis.org/en/site/), en cojunto con la extensión [Semi-Automatic Classification Plugin for QGIS (SCP)](https://fromgistors.blogspot.com/p/semi-automatic-classification-plugin.html) para el procesamiento de imágenes satelitales y la clasificación de uso de suelo mediante la delimitación de Regiones de Interés (ROIs por sus siglas en inglés) para los algoritmos de clasificación.
-
-Una versión interactiva de este material cartográfico, creado mediante Leaflet en R Studio puede ser consultado [aquí](https://rpubs.com/AlexVM91/expansion_urbana_leon). 
- 
-<img src="Imágenes/LULC_Leon.png" width="2000">
- 
-<img src="Imágenes/Expansion_urbana_web.jpg" width="2000">
-
-___
