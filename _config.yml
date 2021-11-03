@@ -4,8 +4,8 @@ is_project_page: false
 
 
 colors:
-    gradient_left: "#155799"
-    gradient_right: "#159957"
+    gradient_left: "#400b63"
+    gradient_right: "#991515"
     header: "#fff"
     android_theme: "#000" # this default to gradient_color
     link: "#1e6bb8" # this default to gradient_color
