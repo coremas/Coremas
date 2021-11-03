@@ -54,7 +54,7 @@ Esta es una versión interactiva de este material cartográfico, creado mediante
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="https://rpubs.com/AlexVM91/expansion_urbana_leon/">
+            src="https://rpubs.com/AlexVM91/expansion_urbana_leon">
  </iframe>
 </div>  
  
@@ -68,11 +68,18 @@ En este trabajo en curso, cuyos avances se presentaron en el [4to Congreso Inter
 
 El principal insumo para esta investigación es la base de datos georreferenciada elaborada por [María Salguero](http://mapafeminicidios.blogspot.com/p/inicio.html), quien ha registrado mediante Google Maps la ubicación precisa de los eventos en donde mujeres han sido asesinadas. En este caso, la estrategia es cuantitativa y espacial, y se presentan resultados que van más allá de los conteos por estados o por municipios, mediante el uso de la Elipse de Desviación Estándar (EDE) como indicador espacial para cada año, permitiendo ver una suerte de “huella espacial” (orientación, longitud y expansión) de los feminicidios, y su permanencia o cambio con el paso del tiempo. Además, tales indicadores son comparados con otros derivados del censo de 2010, y representados en forma de cartografía a nivel de AGEB, obteniendo un material cartográfico sintético que permite retratar la mencionada dinámica espacio-temporal. 
 
-Los resultados preliminares muestran que el feminicidio en León es un problema preponderantemente urbano, y que los feminicidios en la ciudad no solo han variado en cantidad, sino también en sus “huellas espaciales” año con año. Con respecto a lo anterior, de 2016 a 2018 las huellas espaciales de los feminicidios fueron similares en su orientación, pero no en su extensión y expansión, sugiriendo que los feminicidios tuvieron causas ambientales localizadas en zonas específicas de la ciudad. En contraste, 2019 mostró un patrón transversal a los años anteriores, lo que sugiere que los feminicidios de ese año pudieron estar relacionados con otros fenómenos particulares, pues la “huella espacial” de 2020 vuelve a mostrar un patrón similar a los años de 2016 a 2018. Finalmente, se vislumbra que los feminicidios han tendido a ocurrir en AGEB con características particulares, a saber, con un Grado de Marginación Urbana “medio”, en zonas de transición entre AGEB con grados “alto” y “bajo” de marginación, de acuerdo con los datos del CONAPO, y una densidad poblacional alta (habitantes/km2). Lo anterior suguiere que las condiciones socioeconómicas no son los factores de mayor peso detrás de este fenómeno que aqueja a nuestra sociedad. 
+Los resultados preliminares muestran que el feminicidio en León es un problema preponderantemente urbano, y que los feminicidios en la ciudad no solo han variado en cantidad, sino también en sus “huellas espaciales” año con año. Con respecto a lo anterior, de 2016 a 2018 las huellas espaciales de los feminicidios fueron similares en su orientación, pero no en su extensión y expansión, sugiriendo que los feminicidios tuvieron causas ambientales localizadas en zonas específicas de la ciudad. En contraste, 2019 mostró un patrón transversal a los años anteriores, lo que sugiere que los feminicidios de ese año pudieron estar relacionados con otros fenómenos particulares, pues la “huella espacial” de 2020 vuelve a mostrar un patrón similar a los años de 2016 a 2018. Finalmente, se vislumbra que los feminicidios han tendido a ocurrir en AGEB con características particulares, a saber, con un Grado de Marginación Urbana “medio”, en zonas de transición entre AGEB con grados “alto” y “bajo” de marginación, de acuerdo con los datos del CONAPO, y una densidad poblacional alta (habitantes/km2). Lo anterior suguiere que las condiciones socioeconómicas no son los factores de mayor peso detrás de este fenómeno que aqueja a nuestra sociedad.
+ 
+![Feminicidios_ver2_4CIGE](https://user-images.githubusercontent.com/85447979/121257806-c06b8c00-c873-11eb-9981-d8eb971ce522.png) 
 
 Una versión interactiva más sencilla del material cartográfico presentado debajo puede ser consultado [aquí](https://coremas.github.io/Feminicidios_Leon/#11/21.1060/-101.5403).
-
-![Feminicidios_ver2_4CIGE](https://user-images.githubusercontent.com/85447979/121257806-c06b8c00-c873-11eb-9981-d8eb971ce522.png)
+ 
+<div>
+ <iframe width="1200" height="400"
+            style="border: 2px solid #69561B; width: 1200px; height: 700px;"
+            src="https://coremas.github.io/Feminicidios_Leon/#11/21.1060/-101.5403">
+ </iframe>
+</div>   
 
 ___
  
@@ -82,7 +89,14 @@ ___
 
 El siguiente gráfico fue construido mediante el lenguaje de programación [R](https://www.r-project.org), manipulado en el entorno de desarrollo integrado (IDE) [R Studio](https://www.rstudio.com). Se programó una función que permite tomar cualquier matriz de datos, para, proviendo de los argumentos indicados, construir un gráfico de hasta cuatro variables cuantitativas resumidas en un único elemento visual. Se incluye la línea de regresión como aspecto indicativo de la relación entre las dos variables principales.
 
-En este caso, la intención fue la de explorar el panorama de la vivienda y la dinámica familiar de Guanajuato, a través de la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación. La matriz de datos fue construida a partir de los [indicadores de desarrollo social del estado de Guanajuato](http://seieg.iplaneg.net/ind35/). Este gráfico también puede hacerse interactivo en formato .html, el cual puede ser consultado [aquí](https://rpubs.com/AlexVM91/vivienda_violencia_intrafamiliar_Gto)
+En este caso, la intención fue la de explorar el panorama de la vivienda y la dinámica familiar de Guanajuato, a través de la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación. La matriz de datos fue construida a partir de los [indicadores de desarrollo social del estado de Guanajuato](http://seieg.iplaneg.net/ind35/). Este gráfico también puede hacerse interactivo en formato .html, el cual puede ser consultado a continuación:
+ 
+<div>
+ <iframe width="1200" height="400"
+            style="border: 2px solid #69561B; width: 1200px; height: 700px;"
+            src="https://rpubs.com/AlexVM91/vivienda_violencia_intrafamiliar_Gto">
+ </iframe>
+</div>  
 
 Las librerías y el código utilizados para este gráfico es el siguiente:
 
