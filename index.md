@@ -54,7 +54,7 @@ Esta es una versión interactiva de este material cartográfico, creado mediante
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="Coremas/Vivienda_familia_GTO_municipios.html">
+            src="https://rpubs.com/AlexVM91/expansion_urbana_leon">
  </iframe>
 </div>  
  
@@ -77,7 +77,7 @@ Una versión interactiva más sencilla del material cartográfico presentado deb
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="https://rpubs.com/AlexVM91/expansion_urbana_leon">
+            src="https://coremas.github.io/Feminicidios_Leon/#11/21.1060/-101.5403">
  </iframe>
 </div>   
 
@@ -94,7 +94,7 @@ En este caso, la intención fue la de explorar el panorama de la vivienda y la d
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="https://raw.githubusercontent.com/coremas/Coremas/gh-pages/Vivienda_familia_GTO_municipios.html">
+            src="Vivienda_familia_GTO_municipios.html">
  </iframe>
 </div>  
 
