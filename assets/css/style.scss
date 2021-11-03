@@ -3,7 +3,12 @@
 header {
 
 display: none;
-
+.page-header {
+    color: #A05E28;
+    text-align: center;
+    background-image: linear-gradient(
+    360deg, #000015, #14131B);
+}
 }
 
 
@@ -23,10 +28,3 @@ display: none;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	}
-
-.page-header {
-    color: #A05E28;
-    text-align: center;
-    background-image: linear-gradient(
-360deg, #000015, #14131B);
-}
