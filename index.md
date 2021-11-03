@@ -54,7 +54,7 @@ Esta es una versión interactiva de este material cartográfico, creado mediante
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="http://rpubs.com/AlexVM91/expansion_urbana_leon">
+            src="Coremas/Vivienda_familia_GTO_municipios.html">
  </iframe>
 </div>  
  
