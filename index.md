@@ -23,7 +23,7 @@ NOTA 2: un geovisor mejorado fue producido para la plataforma digital GeoBiDe, p
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
             src="https://geobide.org/COVID19_Leon/">
- </iframe></p>
+ </iframe>
 </div> 
 
 ___
