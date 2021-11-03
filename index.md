@@ -77,7 +77,7 @@ Una versión interactiva más sencilla del material cartográfico presentado deb
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="https://coremas.github.io/Feminicidios_Leon/#11/21.1060/-101.5403">
+            src="https://rpubs.com/AlexVM91/expansion_urbana_leon">
  </iframe>
 </div>   
 
@@ -94,7 +94,7 @@ En este caso, la intención fue la de explorar el panorama de la vivienda y la d
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="http://rpubs.com/AlexVM91/vivienda_violencia_intrafamiliar_Gto">
+            src="https://raw.githubusercontent.com/coremas/Coremas/gh-pages/Vivienda_familia_GTO_municipios.html">
  </iframe>
 </div>  
 
