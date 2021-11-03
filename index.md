@@ -17,7 +17,7 @@ Partiendo de que el riesgo es omnipresente, la cartografía de este índice perm
 Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de una colonia de interés, y otro buscador para escuelas. [*Este artículo*](https://github.com/coremas/Coremas/blob/5719854e37fa8611bffa809f4b02c999ea0b9c0b/Vargas,%20Coronado%20y%20Cervantes%20-%20IRCII.pdf) brinda más detalles conceptuales, metodológicos y técnicos sobre los indicadores, la construcción del índice compuesto y su transformación cartográfica.
 
 NOTA: Este mapa interactivo fue actualizado para incluir a las diferentes escuelas de todos los niveles, públicas y privadas, en el marco del regreso a clases presenciales.
-NOTA 2: un geovisor mejorado fue producido para la plataforma digital GeoBiDe, propiedad del mismo autor, para su divulgación hacia el público en general. 
+<p>NOTA 2: un geovisor mejorado fue producido para la plataforma digital GeoBiDe, propiedad del mismo autor, para su divulgación hacia el público en general.</p> 
  
 <div style="text-align:center">
  <iframe width="1200" height="400"
@@ -54,7 +54,7 @@ Esta es una versión interactiva de este material cartográfico, creado mediante
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="https://rpubs.com/AlexVM91/expansion_urbana_leon">
+            src="https://rpubs.com/AlexVM91/expansion_urbana_leon/">
  </iframe>
 </div>  
  
@@ -90,13 +90,11 @@ ___
 El siguiente gráfico fue construido mediante el lenguaje de programación [R](https://www.r-project.org), manipulado en el entorno de desarrollo integrado (IDE) [R Studio](https://www.rstudio.com). Se programó una función que permite tomar cualquier matriz de datos, para, proviendo de los argumentos indicados, construir un gráfico de hasta cuatro variables cuantitativas resumidas en un único elemento visual. Se incluye la línea de regresión como aspecto indicativo de la relación entre las dos variables principales.
 
 En este caso, la intención fue la de explorar el panorama de la vivienda y la dinámica familiar de Guanajuato, a través de la relación entre rezago habitacional y hacinamiento, acompañada por la violencia intrafamiliar como variable que podría estar asociada con dicha relación. La matriz de datos fue construida a partir de los [indicadores de desarrollo social del estado de Guanajuato](http://seieg.iplaneg.net/ind35/). Este gráfico también puede hacerse interactivo en formato .html, el cual puede ser consultado a continuación:
-
-<iframe src="https://rpubs.com/AlexVM91/vivienda_violencia_intrafamiliar_Gto"; width=900; height=500; seamless; frameborder=0;></iframe> 
  
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="https://rpubs.com/AlexVM91/vivienda_violencia_intrafamiliar_Gto">
+            src="https://rpubs.com/AlexVM91/vivienda_violencia_intrafamiliar_Gto/">
  </iframe>
 </div>  
 
