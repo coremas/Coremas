@@ -54,7 +54,7 @@ Esta es una versión interactiva de este material cartográfico, creado mediante
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="https://rpubs.com/AlexVM91/expansion_urbana_leon/">
+            src="http://rpubs.com/AlexVM91/expansion_urbana_leon">
  </iframe>
 </div>  
  
@@ -94,7 +94,7 @@ En este caso, la intención fue la de explorar el panorama de la vivienda y la d
 <div>
  <iframe width="1200" height="400"
             style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="https://rpubs.com/AlexVM91/vivienda_violencia_intrafamiliar_Gto/">
+            src="http://rpubs.com/AlexVM91/vivienda_violencia_intrafamiliar_Gto">
  </iframe>
 </div>  
 
