@@ -19,9 +19,9 @@ Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada 
 NOTA: Este mapa interactivo fue actualizado para incluir a las diferentes escuelas de todos los niveles, públicas y privadas, en el marco del regreso a clases presenciales.
 NOTA 2: un geovisor mejorado fue producido para la plataforma digital GeoBiDe, propiedad del mismo autor, para su divulgación hacia el público en general. 
  
-<div>
+<div align="center">
  <iframe width="1200" height="400"
-            style="border: 2px solid #69561B; width: 1200px; height: 700px;"
+            style="border: 2px solid #69561B; width: 1200px; height: 700px; position:centered"
             src="https://geobide.org/COVID19_Leon/">
  </iframe>
 </div> 
