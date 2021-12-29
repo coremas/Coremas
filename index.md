@@ -1,5 +1,5 @@
 ## Por Sebastián Vargas 
-<sub>Maestro en Estudios para el Desarrollo [UG] / Maestrante en Geografía [IG-UNAM]<sub>
+<sub>Maestro en Estudios para el Desarrollo [UG] / Maestrante en Geografía [IG-UNAM] / Doctorando en Ciudad, Territorio y Planificación Sostenible (UMA)<sub>
 
 ### COVID-19 en León, Guanajuato. Expresión cartográfica del Índice de Riesgo de Contagio Interurbano e Intergeneracional (IRCII).
 #### En colaboración con el Dr. José Luis Coronado Ramírez y el Dr. Ernesto Cervantes López.
@@ -51,8 +51,7 @@ fviz_pca_biplot(pca, label = "var",
 ![image](https://user-images.githubusercontent.com/85447979/147709163-e9afb537-5c1b-4e1c-b038-11800913e88c.png)
  
 <p>NOTA 1: Este mapa interactivo fue actualizado para incluir a las diferentes escuelas de todos los niveles, públicas y privadas, en el marco del regreso a clases presenciales.</p>
-<p>NOTA 2: un geovisor mejorado fue producido para la plataforma digital GeoBiDe, propiedad del mismo autor, para su divulgación hacia el público en general.</p>
-<p>NOTA 3: el ACP no fue contemplado en la propuesta original, y se realizó para actualizar este ejercicio con una técnica estadística distinta a la empleada.</p>
+<p>NOTA 2: el ACP no fue contemplado en la propuesta original, y se realizó para actualizar este ejercicio con una técnica estadística distinta a la empleada.</p>
 
 ___
 
