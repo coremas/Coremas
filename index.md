@@ -14,7 +14,7 @@ Instrumento de carácter cuantitativo y [*traducido en cartografía web interact
  
 Partiendo de que el riesgo es omnipresente, la cartografía de este índice permite distinguir diferentes zonas de la ciudad en función de su grado de riesgo de exposición al virus, y con ello, de contagio del mismo.
 
-Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de una colonia de interés, y otro buscador para escuelas. [*Este artículo*](https://github.com/coremas/Coremas/blob/5719854e37fa8611bffa809f4b02c999ea0b9c0b/Vargas,%20Coronado%20y%20Cervantes%20-%20IRCII.pdf) brinda más detalles conceptuales, metodológicos y técnicos sobre los indicadores, la construcción del índice compuesto y su transformación cartográfica.
+Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo medio (zonas claras), dado que sería demasiado optimista suponer un riesgo bajo. También cuenta con un buscador para escribir el nombre de una colonia de interés, y otro buscador para escuelas. [*Este artículo*](https://github.com/coremas/Coremas/blob/5719854e37fa8611bffa809f4b02c999ea0b9c0b/Vargas,%20Coronado%20y%20Cervantes%20-%20IRCII.pdf) brinda más detalles conceptuales, metodológicos y técnicos sobre los indicadores, la construcción del índice compuesto y su transformación cartográfica.
  
 <div style="text-align:center">
  <iframe width="1200" height="400"
