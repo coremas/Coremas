@@ -24,7 +24,32 @@ NOTA: Este mapa interactivo fue actualizado para incluir a las diferentes escuel
             style="border: 2px solid #69561B; width: 1200px; height: 700px; position:centered"
             src="https://geobide.org/COVID19_Leon/">
  </iframe>
-</div> 
+</div>
+ 
+El siguiente Análisis de Componentes Principales aplicado al conjunto de indicadores utilizados en la construcción del índice pone en relieve aquellos asociados con la vulnerabilidad, por un lado, y con la exposición, por el otro, y que cada uno de estos grupos se presentan en áreas censales específicas. Así, aquellas con más escuelas, comercios y rutas de transporte serían las de mayor exposición, mientras que aquellas con más diversidad etaria y con un porcentaje de viviendas sin agua entubada más alto, serían más las más vulnerables, aunque no las más expuestas.
+ 
+A pesar del bajo porcentaje de varianza explicado por los dos primeros componentes principales, el resultado parece confirmar la percepción en la que el virus se propaga en las zonas de mayor actividad económica, sin que necesariamente sea allí en donde los brotes sean más dañinos. Por el contrario, la gente de las zonas deprimidas, aunque no encuentra muchos factores de exposición en la inmediatez de su entorno, se verían forzados a exponerse dado que en sus inmediaciones no encuentran los satisfactores necesarios para su vida.
+
+```{r}
+ 
+library(ggplot2)
+library(ggfortify)
+library(factoextra)
+
+df <- subset(IRCII_Indicadores_2022, select = -c(GMU))
+
+pca <- prcomp(df, center = TRUE, scale = TRUE)
+
+fviz_pca_biplot(pca, label = "var", 
+                habillage = IRCII_Indicadores_2022$GMU,
+                legend.title = "Grado de Marginación Urbana",
+                palette = c("orange", "green", "yellow", "red", "green4"),
+                addEllipses=TRUE, ellipse.level=0.95,
+                title = "Análisis de Componentes Principales",
+                ggtheme = theme_classic())
+
+``` 
+![image](https://user-images.githubusercontent.com/85447979/147709163-e9afb537-5c1b-4e1c-b038-11800913e88c.png)
 
 ___
 
