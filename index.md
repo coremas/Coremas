@@ -15,9 +15,6 @@ Instrumento de carácter cuantitativo y [*traducido en cartografía web interact
 Partiendo de que el riesgo es omnipresente, la cartografía de este índice permite distinguir diferentes zonas de la ciudad en función de su grado de riesgo de exposición al virus, y con ello, de contagio del mismo.
 
 Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada por el cursor, permitiendo notar si ésta se encuentra en una zona de muy alto riego (zonas oscuras) o de riesgo bajo (zonas claras). También cuenta con un buscador para escribir el nombre de una colonia de interés, y otro buscador para escuelas. [*Este artículo*](https://github.com/coremas/Coremas/blob/5719854e37fa8611bffa809f4b02c999ea0b9c0b/Vargas,%20Coronado%20y%20Cervantes%20-%20IRCII.pdf) brinda más detalles conceptuales, metodológicos y técnicos sobre los indicadores, la construcción del índice compuesto y su transformación cartográfica.
-
-NOTA: Este mapa interactivo fue actualizado para incluir a las diferentes escuelas de todos los niveles, públicas y privadas, en el marco del regreso a clases presenciales.
-<p>NOTA 2: un geovisor mejorado fue producido para la plataforma digital GeoBiDe, propiedad del mismo autor, para su divulgación hacia el público en general.</p> 
  
 <div style="text-align:center">
  <iframe width="1200" height="400"
@@ -52,6 +49,10 @@ fviz_pca_biplot(pca, label = "var",
 
 ``` 
 ![image](https://user-images.githubusercontent.com/85447979/147709163-e9afb537-5c1b-4e1c-b038-11800913e88c.png)
+ 
+<p>NOTA 1: Este mapa interactivo fue actualizado para incluir a las diferentes escuelas de todos los niveles, públicas y privadas, en el marco del regreso a clases presenciales.</p>
+<p>NOTA 2: un geovisor mejorado fue producido para la plataforma digital GeoBiDe, propiedad del mismo autor, para su divulgación hacia el público en general.</p>
+<p>NOTA 3: el ACP no fue contemplado en la propuesta original, y se realizó para actualizar este ejercicio con una técnica estadística distinta a la empleada.</p>
 
 ___
 
