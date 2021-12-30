@@ -23,7 +23,9 @@ Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada 
  </iframe>
 </div>
 
-<p>El siguiente Análisis de Componentes Principales aplicado al conjunto de indicadores utilizados en la construcción del índice pone en relieve aquellos asociados con la vulnerabilidad, por un lado, y con la exposición, por el otro, y que cada uno de estos grupos se presentan en áreas censales específicas. Así, aquellas con más escuelas, comercios y rutas de transporte serían las de mayor exposición, mientras que aquellas con más diversidad etaria y con un porcentaje de viviendas sin agua entubada más alto, serían más las más vulnerables, aunque no las más expuestas.</p>
+<p>El siguiente Análisis de Componentes Principales aplicado al conjunto de indicadores utilizados en la construcción del índice pone en relieve aquellos asociados con la vulnerabilidad, por un lado, y con la exposición, por el otro, y que cada uno de estos grupos se presentan en áreas censales específicas. Así, aquellas con más escuelas, comercios y rutas de transporte serían las de mayor exposición, mientras que aquellas con un porcentaje de viviendas sin agua entubada más alto, serían más las más vulnerables, aunque no las más expuestas. Es de notarse que ni la densidad poblacional (como indicador de exposición) ni la diversidad etaria (como indicador de vulnerabilidad) se asocian con el resto de los indicadores.</p>
+ 
+![image](https://user-images.githubusercontent.com/85447979/147709163-e9afb537-5c1b-4e1c-b038-11800913e88c.png)
  
 <p>A pesar del bajo porcentaje de varianza explicado por los dos primeros componentes principales, el resultado parece confirmar la percepción de que el virus se propaga en las zonas de mayor actividad económica, sin que necesariamente sea allí en donde los brotes son más dañinos. Por el contrario, la gente de las zonas deprimidas, aunque no encuentra muchos factores de exposición en la inmediatez de su entorno, se ve en mayor riesgo dado que está forzada a transitar por las zonas de mayor exposición, pues en sus inmediaciones no encuentran los satisfactores necesarios para su vida. Sin embargo, para dar soporte a esta hipótesis, se necesitaría acceso a los casos por área censal, los cuales, o no se generan o no son públicos.</p>
  
@@ -48,7 +50,6 @@ fviz_pca_biplot(pca, label = "var",
                 ggtheme = theme_classic())
 
 ``` 
-![image](https://user-images.githubusercontent.com/85447979/147709163-e9afb537-5c1b-4e1c-b038-11800913e88c.png)
  
 <p>NOTA 1: Este mapa interactivo fue actualizado para incluir a las diferentes escuelas de todos los niveles, públicas y privadas, en el marco del regreso a clases presenciales.</p>
 <p>NOTA 2: el ACP no fue contemplado en la propuesta original, y se realizó para actualizar este ejercicio con una técnica estadística distinta a la empleada.</p>
