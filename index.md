@@ -84,10 +84,7 @@ Los insumos consistieron en imágenes satelitales de diferentes sensores LANDAST
 Esta es una versión interactiva de este material cartográfico, creado mediante Leaflet en R Studio:
  
 <div>
- <iframe width="1200" height="400"
-            style="border: 2px solid #69561B; width: 1200px; height: 700px;"
-            src="https://rpubs.com/AlexVM91/expansion_urbana_leon" width="90%" height="100%" scrolling="no">
- </iframe>
+   <iframe src="https://rpubs.com/AlexVM91/expansion_urbana_leon" width="90%" height="100%" scrolling="no"></iframe>
 </div>  
  
 ___
