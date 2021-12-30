@@ -4,13 +4,15 @@
 ### COVID-19 en León, Guanajuato. Expresión cartográfica del Índice de Riesgo de Contagio Interurbano e Intergeneracional (IRCII).
 #### En colaboración con el Dr. José Luis Coronado Ramírez y el Dr. Ernesto Cervantes López.
 
-Instrumento de carácter cuantitativo y [*traducido en cartografía web interactiva*](https://coremas.github.io/IRCII_2/) que tuvo por finalidad identificar zonas con diferente intensidad de riesgo de exposición al contagio del virus SARS-COV2 para la ciudad de León, Guanajuato, en el marco de la pandemia global de COVID-19. Dicho instrumento, en forma de índice compuesto, se construyó a partir de la combinación de diferentes factores de riesgo, derivados de las medidas no médicoas, tales como:
+Instrumento de carácter cuantitativo y [*traducido en cartografía web interactiva*](https://coremas.github.io/IRCII_2/) que tuvo por finalidad identificar zonas con diferente intensidad de riesgo de exposición al contagio del virus SARS-COV2 para la ciudad de León, Guanajuato, en el marco de la pandemia global de COVID-19. Dicho instrumento, en forma de índice compuesto, se construyó a partir de la combinación de diferentes factores de riesgo, derivados de las medidas no médicas, tales como:
 
 1) las oportunidades de movilidad en transporte público, 
 2) la disponibilidad y concentración de establecimientos esenciales, 
 3) la interacción entre diferentes grupos etarios, 
 4) la densidad poblacional, y 
-5) la disponibilidad de agua entubada. 
+5) la disponibilidad de agua entubada.
+6) la cantidad de escuelas (considerado posteriormente).
+7) la cantidad de tiendas departamentales (considerado posteriormente).
  
 Partiendo de que el riesgo es omnipresente, la cartografía de este índice permite distinguir diferentes zonas de la ciudad en función de su grado de riesgo de exposición al virus, y con ello, de contagio del mismo.
 
