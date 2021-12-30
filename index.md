@@ -27,7 +27,7 @@ Al deslizar el cursor por el mapa, se ilumina e identifica la colonia señalada 
  </iframe>
 </div>
 
-<p>El siguiente Análisis de Componentes Principales aplicado al conjunto de indicadores utilizados en la construcción del índice pone en relieve aquellos asociados con la vulnerabilidad, por un lado, y con la exposición, por el otro, y que cada uno de estos grupos se presentan en áreas censales específicas. Así, aquellas con más escuelas, comercios y rutas de transporte serían las de mayor exposición, mientras que aquellas con un porcentaje de viviendas sin agua entubada más alto, serían más las más vulnerables, aunque no las más expuestas. Es de notarse que ni la densidad poblacional (como indicador de exposición) ni la diversidad etaria (como indicador de vulnerabilidad) se asocian con el resto de los indicadores.</p>
+<p>El siguiente Análisis de Componentes Principales aplicado al conjunto de indicadores utilizados en la construcción del índice pone en relieve aquellos asociados con la vulnerabilidad, por un lado, y con la exposición, por el otro, y que cada uno de estos grupos se presentan en áreas censales (AGEB) específicas. Así, las zonas con más escuelas, comercios y rutas de transporte serían las de mayor exposición; mientras que aquellas con un porcentaje de viviendas sin agua entubada más alto, serían más las más vulnerables, aunque no las más expuestas. Es de notarse que ni la densidad poblacional (como indicador de exposición) ni la diversidad etaria (como indicador de vulnerabilidad) se asocian con el resto de los indicadores.</p>
  
 ![image](https://user-images.githubusercontent.com/85447979/147709163-e9afb537-5c1b-4e1c-b038-11800913e88c.png)
  
