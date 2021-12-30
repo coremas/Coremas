@@ -1,5 +1,5 @@
 ## Por Sebastián Vargas 
-<sub>Maestro en Estudios para el Desarrollo [UG] / Maestrante en Geografía [IG-UNAM] / Doctorando en Ciudad, Territorio y Planificación Sostenible (UMA)<sub>
+<sub>Maestro en Estudios para el Desarrollo [UG] / Maestrante en Geografía [Instituto de Geografía-UNAM] / Doctorando en Ciudad, Territorio y Planificación Sostenible (Universidad de Málaga)<sub>
 
 ### COVID-19 en León, Guanajuato. Expresión cartográfica del Índice de Riesgo de Contagio Interurbano e Intergeneracional (IRCII).
 #### En colaboración con el Dr. José Luis Coronado Ramírez y el Dr. Ernesto Cervantes López.
