@@ -13,7 +13,7 @@ Instrumento de carácter cuantitativo y [*traducido en cartografía web interact
  <li>la densidad poblacional,</li> 
  <li>la disponibilidad de agua entubada,</li>
  <li>la cantidad de escuelas (considerado posteriormente),</li>
- <li>la cantidad de tiendas departamentales (considerado posteriormente).</li>
+ <li>la cantidad de tiendas departamentales (considerado posteriormente; sólo para temporada decembrina).</li>
 </ol>
  
 Partiendo de que el riesgo es omnipresente, la cartografía de este índice permite distinguir diferentes zonas de la ciudad en función de su grado de riesgo de exposición al virus, y con ello, de contagio del mismo.
