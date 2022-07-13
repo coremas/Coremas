@@ -158,4 +158,10 @@ bubble_chart(Matriz_indicadores, hacinamiento, viol_intr, car_soc, niv_edu, Var_
 ![image](https://user-images.githubusercontent.com/85447979/121412056-e5223b00-c929-11eb-89c4-72b68e700ee6.png)
 
 ___
+ 
+### Tablero interactivo Power BI sobre lesiones a nivel nacional para el 2021 con datos de la Secretaría de Salud.
+ 
+El siguiente es un ejemplo de tablero dinámico que permite visualizar de forma dinámica el comportamiento de las lesiones registradas por la SSA a nivel nacional, en función del tiempo, ubicación geográfica y de otras variables sociodemográficas, en atención a los tres aspectos clave de toda enfermedad o padecimiento en epidemiología: tiempo, lugar y persona.
+
+![image](https://user-images.githubusercontent.com/85447979/130892185-b8221008-2e00-4f69-a776-472f96d1b31e.png) 
 
