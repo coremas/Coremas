@@ -163,5 +163,5 @@ ___
  
 El siguiente es un ejemplo de tablero dinámico que permite visualizar de forma dinámica el comportamiento de las lesiones registradas por la SSA a nivel nacional, en función del tiempo, ubicación geográfica y de otras variables sociodemográficas, en atención a los tres aspectos clave de toda enfermedad o padecimiento en epidemiología: tiempo, lugar y persona.
 
-![image](https://user-images.githubusercontent.com/85447979/130892185-b8221008-2e00-4f69-a776-472f96d1b31e.png) 
+<img src="Imágenes/PowerBI_Lesiones.gif">
 
