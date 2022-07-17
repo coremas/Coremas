@@ -66,7 +66,7 @@ El siguiente es un ejemplo de tablero interactivo que permite visualizar de form
  
 Los datos originales pueden ser obtenidos del [*repositorio de datos abiertos de la Secretaría de Salud*](http://www.dgis.salud.gob.mx/contenidos/basesdedatos/da_lesiones_gobmx.html).
  
-<iframe title="Lesiones_2021 - Página 1" width="1024" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiNjYxZDVkNTEtNzIwNC00MGVmLWE2NGUtMTUzYzlmYmNmODAyIiwidCI6ImRiMTBiZDllLWQ3NjAtNDE0YS1iYzA3LTkxMTQ4YWIxZmMwYSJ9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="Lesiones_2021" width="1024" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiNjYxZDVkNTEtNzIwNC00MGVmLWE2NGUtMTUzYzlmYmNmODAyIiwidCI6ImRiMTBiZDllLWQ3NjAtNDE0YS1iYzA3LTkxMTQ4YWIxZmMwYSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
 ___ 
 
