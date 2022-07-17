@@ -65,13 +65,9 @@ ___
 El siguiente es un ejemplo de tablero interactivo que permite visualizar de forma dinámica el comportamiento de las lesiones registradas por la SSA a nivel nacional, en función del tiempo, ubicación geográfica y de otras variables sociodemográficas, en atención a los tres aspectos clave de toda enfermedad o padecimiento en epidemiología: tiempo, lugar y persona.
  
 Los datos originales pueden ser obtenidos del [*repositorio de datos abiertos de la Secretaría de Salud*](http://www.dgis.salud.gob.mx/contenidos/basesdedatos/da_lesiones_gobmx.html).
+ 
+<iframe title="Lesiones_2021 - Página 1" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNjYxZDVkNTEtNzIwNC00MGVmLWE2NGUtMTUzYzlmYmNmODAyIiwidCI6ImRiMTBiZDllLWQ3NjAtNDE0YS1iYzA3LTkxMTQ4YWIxZmMwYSJ9" frameborder="0" allowFullScreen="true"></iframe>
 
-<div style="text-align:center">
- <iframe width="1200" height="400"
-            style="border: 2px solid #69561B; width: 1200px; height: 700px; position:centered"
-            src="Imágenes/PowerBI_Lesiones.gif">
- </iframe>
-</div>
 ___ 
 
 ### Teledetección y Análisis de Uso de Suelo en León, Guanajuato.
